@@ -1,0 +1,329 @@
+{
+        "about": [
+          {
+            "title": "About Me",
+            "content": [
+              "Hello, world! I am currently a Director - Software Engineer Lead, in Morgan Stanley finance capital reporting. ",
+              "Regulatory reports such as Standardized Approach for Counterparty Credit Risk (SA-CCR), ",
+              "Comprehensive Capital Analysis and Review (CCAR), Internal Capital Adequacy Assessment Process (ICAAP) ",
+              "were the main regulatory reports that I worked on and / or created. My expertise involves to parallelize, scale, ",
+              "and optimize these big data batch jobs to within minutes of delivery time while using minimum resource consumption. "
+            ]
+          },
+          {
+            "title": "Area of Interest",
+            "content": [
+              "My outside of work interest is open source library for performant data pipeline. ",
+              "High throughput, low latency, and low resource consumption are optimization skills that I like to explore. "
+            ]
+          },
+          {
+            "title": "Update",
+            "content": [
+              "This page is refactored from legacy Angular 1 to React by using Codex ChatGPT 5. I am working on an open-source library for Java read and write to Snowflake. Expect to hear more about it at the end of 2025."
+            ]
+          }
+        ],
+        "contact": [
+          {
+            "title": "Name",
+            "content": "Luming Wu"
+          },
+          {
+            "title": "Email",
+            "content": "reallumingwu@gmail.com"
+          },
+          {
+            "title": "Github",
+            "content": "https://github.com/LumingWu",
+            "link": true
+          },
+          {
+            "title": "LinkedIn",
+            "content": "https://www.linkedin.com/in/luming-wu-5a9719b0",
+            "link": true
+          }
+        ],
+        "skill": [
+          {
+            "title": "Programming Language",
+            "content": [
+              { "label": "Java", "class": "success" },
+              { "label": "Python", "class": "success" },
+              { "label": "Scala", "class": "success" },
+              { "label": "SQL", "class": "success"  },
+              { "label": "Typescript" },
+              { "label": "Javascript" },
+              { "label": "HTML" },
+              { "label": "CSS" },
+              { "label": "Prolog" },
+              { "label": "C" }
+            ]
+          },
+          {
+            "title": "Programming Framework Experience",
+            "content": [
+              { "label": "Spring", "class": "success" },
+              { "label": "Spark", "class": "success" },
+              { "label": "Airflow", "class": "success" },
+              { "label": "Hibernate", "class": "success" },
+              { "label": "JPA", "class": "success" },
+              { "label": "Cucumber" },
+              { "label": "Mockito", "class": "success" },
+              { "label": "JUnit", "class": "success" },
+              { "label": "AngularJS" },
+              { "label": "React" },
+              { "label": "PostgreSQL" },
+              { "label": "MySQL" },
+              { "label": "Datastore" },
+              { "label": "xQuery" },
+              { "label": "Datalog" }
+            ]
+          },
+          {
+            "title": "Cloud Experience",
+            "content": [
+              { "label": "Databricks", "class": "success" },
+              { "label": "Snowflake", "class": "success" },
+              { "label": "DynamoDB"},
+              { "label": "Lambda" },
+              { "label": "SNS" },
+              { "label": "Firehose" },
+              { "label": "S3" },
+              { "label": "Cloudformation" },
+              { "label": "Docker / Podman", "class": "success" },
+              { "label": "Google App Engine" },
+              { "label": "Firebase" }
+            ]
+          },
+          {
+            "title": "Operating System",
+            "content": [
+              { "label": "Linux", "class": "success" },
+              { "label": "Windows", "class": "success" }
+            ]
+          },
+          {
+            "title": "Development Tool",
+            "content": [
+              { "label": "Gradle", "class": "success" },
+              { "label": "Git", "class": "success" },
+              { "label": "Maven" },
+              { "label": "IntelliJ", "class": "success" },
+              { "label": "VS Code", "class": "success" },
+              { "label": "Postman", "class": "success" },
+              { "label": "Bash" },
+              { "label": "Jenkin" },
+              { "label": "Maven" },
+              { "label": "Splunk" },
+              { "label": "JMeter" },
+              { "label": "JProfiler" }
+            ]
+          },
+          {
+            "title": "Language",
+            "content": [
+              { "label": "English" },
+              { "label": "Chinese Mandarin" },
+              { "label": "Chinese Cantonese" }
+            ]
+          }
+        ],
+        "education": {
+          "schools": [
+            {
+              "school": "Stony Brook University",
+              "degree": "Master of Science",
+              "major": "Computer Science",
+              "gpa": "3.25 / 4.00",
+              "startdate": "August, 2017",
+              "enddate": "December, 2018"
+            },
+            {
+              "school": "Stony Brook University",
+              "degree": "Bachelor of Science",
+              "major": "Computer Science",
+              "gpa": "3.74 / 4.00",
+              "startdate": "August, 2014",
+              "enddate": "May, 2017"
+            }
+          ],
+          "course_taken":[
+            "CSE 114 Computer Science I",
+            "CSE 214 Computer Science II",
+            "CSE 215 Foundations of Computer Science",
+            "CSE 219 Computer Science III",
+            "CSE 220 Systems Fundamentals I",
+            "CSE 303 Introduction to the Theory of Computation",
+            "CSE 307 Principles of Programming Languages",
+            "CSE 312 Legal, Social, and Ethical Issues in Information Systems",
+            "CSE 336 Internet Programming",
+            "CSE 346 Computer Communications",
+            "CSE 373 Analysis of Algorithms",
+            "CSE 305 Principles of Database Systems",
+            "CSE 320 System Fundamentals II",
+            "CSE 475 Undergraduate Teaching Practicum for CSE 114",
+            "CSE 300 Technical Communications",
+            "CSE 308 Software Engineering",
+            "CSE 541 Logic in Computer Science",
+            "CSE 548 Analysis of Algorithms",
+            "CSE 505 Computing with Logic",
+            "CSE 532 Theory of Database Systems",
+            "CSE 537 Artificial Intelligence",
+            "CSE 545 Big Data Analytics",
+            "CSE 595 Semantic Web",
+            "CSE 523 Advanced Project",
+            "CSE 506 Operating System",
+            "CSE 512 Machine Learning",
+            "CSE 524 Advanced Project",
+            "CSE 645 Seminar in Languages",
+            "CSE 698 Practicum in Teaching for CSE 505 Computing with Logic"
+          ]
+        },
+        "work_experience":[
+          {"company":"Stony Brook University", "location":"Stony Brook, New York", "time":"August, 2018 to December, 2018", "description":[
+            "Teacher Assistant - Mainly to help grade assignments and exams."
+          ]},
+          {"company":"Intuit", "location":"San Diego, CA", "time":"May 30, 2018 to August 17, 2018", "description":[
+            "Software Engineer Summer Intern - Integration for CTO-Dev Identity team to use an Intuit internal notification service.",
+            " Decoupled the work of sending notification to a service that specializes it.",
+            " Improved resiliency of the platform because the service persists the job.",
+            " Reduced the workload to only providing data that are required to generate the message.",
+            " Created a REST client to use the notification service.",
+            " Created a template translator that automates the translation of all Velocity templates to FreeMarker templates that the service supports.",
+            " Migrated settings and policies of notification generation to the service.",
+            " Resolved technical requirements for the integration to work."
+          ]},
+          {"company":"Stony Brook University", "location":"Stony Brook, New York", "time":"August, 2017 to December, 2017", "description":[
+            "Grader - A graduate teacher assistant and grader for CSE114, an introductory Java class. Programmed a Python program, ",
+            "lazy-ta-grade-transfer, to simplify grade transfer between csv / xls files."
+          ]},
+          {"company":"Stony Brook University", "location":"Stony Brook, New York", "time":"August, 2016 to December, 2016", "description":[
+            "Teacher Assistant - An undergraduate lab teacher assistant for CSE114, an introductory Java class. ",
+            "Helped student review through practice and Q&As. Created a demo for students to get started on their project Scrimish."
+          ]}
+        ],
+        "technology_worked_with":[
+          {"name":"PostgreSQL", "description":["I used it for my second assignment in CSE532, Principles of Database Systems. ",
+            "PostgreSQL has significantly more features than MySQL, I learned some new data types, type casting, rounding, and functions. ",
+            "For the assignment, I worked on creating, populating, and querying an object relational database by using the object-oriented",
+            " features of SQL1999. I created types and array columns to keep the database object relational. I also wrote recursive queries, ",
+            "they are the best new things I have learned in SQL."
+          ]},
+          {"name":"Datalog", "description":["I used it for my first assignment in CSE532, Principles of Database Systems. ",
+            "I had a huge background with Prolog, so I picked it up quickly. I am actually developing a in-memory Datalog database, so I am ",
+            "confident in my understanding of Datalog."
+          ]},
+          {"name":"PySpark", "description":["I used it for my first assignment in CSE545, Big Data Analytic. ",
+            "I used it for basic transformations and caching in Amazon EC2. I think it was pretty cool tool, but I don't have a big chunk data ",
+            "that needs processing outside of school."
+          ]},
+          {"name":"Phaser", "description":[
+            "I have used Phaser, a javascript game engine, for my software development project in CSE308, Software Engineering. I have learned ",
+            "2D game designs such as velocity, collision, and spritesheet. I was able to create a box moving game with working sprites. ",
+            "My game loads a json file that is stored in a Google App Engine bucket that works like a CDN-like file provider, ",
+            "making it very portable on a website."
+          ]},
+          {"name":"Galaxy Editor", "description":[
+            "It is a map mod tool for the game Starcraft II. I was able to modify static files that are stored in XML, write triggers that ",
+            "are similar to C, and deploy the map with proper CSS styled loading screens. Cat N' Mouse Red Sea was my final product."
+          ]},
+          {"name":"Spring", "description":[
+            "I used Spring for my software development project in CSE308, Software Engineering. I mainly used it ",
+            "for the controller, which can be RESTful or just returning a page like a Servlet. I have also worked in Spring repository ",
+            "during my Intuit summer internship. I gained more experience on XML configurations, using and testing different ",
+            "application.properties by profile. Because profile / environment was not considered in my school project."
+          ]},
+          {"name":"MySQL", "description":[
+            "I used MySQL for my CSE305, Principles of Database Systems, project to create a basic social media website ",
+            "that also provide an user interface for admins to monitor. I got to know JDBC, a good friend for the rest of my Java programming life. ",
+            "But that is all I could say for the project."
+          ]},
+          {"name":"AngularJS", "description":[
+            "I used AngularJS for Hackathons, this website, and my project(CSE523) for creating a XSB online editor."
+          ]},
+          {"name":"C", "description":[
+            "I learned C in CSE320(System Fundamentals II), and I programmed in C in the Linux's kernel source code for CSE306(Operating System) ",
+            "assignments. I am currently learning Flex and Bison, so I am still using C."
+          ]}
+        ],
+        "activity":[
+          {"name":"HackerRank", "time":"N/A", "description":[
+            "A good website that I go to find and solve interesting problems. I mainly solve the Euler Project at the moment."
+          ]},
+          {"name":"Stony Brook Computing Society", "time":"2014-2018", "description":[
+            "Often join workshops such as learning a new technology or interview practice."
+          ]},
+          {"name":"HackSB", "time":"2018", "description":[
+            "Recently won the best health hack."
+          ]},
+          {"name":"HackNY", "time":"2016", "description":[
+            "Created randomGIF with another friend, which is a Google Chrome Extension for searching GIFs and ",
+            "copying url. Unfortunately, Facebook does not need url anymore and Facebook partnered with GIPHY, which is the API we used."
+          ]},
+          {"name":"HackBU", "time":"2017", "description":[
+            "Created a task scheduling website with two other friends. An implementation of the greedy algorithm ",
+            "Latest End Time Task first. But we spent more time than expected just to deploy our app on Google App Engine."
+          ]}
+        ],
+        "other_work_experience":[
+          {"company":"BWY Pre-School", "location":"Jackson Height, New York", "time":"July, 2013 to August, 2013", "description":[
+            "Assist teacher in taking care of children. Help children in doing their homework."]},
+          {"company":"Taiwan Center", "location":"Flushing, New York", "time":"July, 2012 to August, 2012", "description":[
+            "Help the senior center by organizing files and computer data, and prepare for events."
+            ]},
+          {"company":"Variety Boys and Girls Club of Queens ", "location":"Long Island City, New York", "time":"2009 to 2012", "description":[
+            "Volunteer help after school elementary students in doing homework."
+            ]},
+          {"company":"Queens Library", "location":"Jamaica, New York", "time":"July 2009 to August, 2009", "description":[
+            "Put and retrieve books and videos in the library. Sometimes help people use the new library machine."
+            ]}
+        ],
+        "proud_projects":[
+          {"title":"Datalog JSON", "link":"https://lumingwu.github.io/datalog-json/", "content":[
+            "A demo for representing Datalog program in JSON. I have used it to represent predicates in D3.js graph for my school project. ",
+            "Spring REST service is deployed to Google App Engine, throttling is applied to the service with 1 request per second. ",
+            "Static React page is host by Github Pages, making sure not to serve static files with App Engine. ",
+            "Antlr4 is used to generate the parser that helps convert the Datalog program. ",
+            "Very interesting demo that utilized many different technologies."
+          ]},
+          {"title":"Pacman", "link":"https://lumingwu.github.io", "content":[
+            "The first assignment in my class CSE537, Artificial Intelligence, that is created by UC Berkeley. For the 7th question, ",
+            "I came up with a heuristic that only expand under 400 nodes by calculating the real distances between foods and the real distances ",
+            "between current position to foods. However, I don't think that solution would be useful for real life, so my other solution is ",
+            "very cheap to compute using manhattan distances between foods and manhattan distances between current position to foods. It ",
+            "expanded less than 7700 nodes and for n foods of a game state, the complexity was O(n*n). Due to license, I can't give ",
+            "link to my solution, but I am willing to share some thoughts in my developing blog section."
+          ]},
+          {"title":"Byte Hunter", "link":"https://bytehunter308.appspot.com", "content":[
+            "This project used Thymleaf Spring MVC for server, Vue for front-end, and Phaser for game to create a game platform.",
+            "The application is deployed on a cloud platform name Google App Engine. I started my work at the database, but eventually ",
+            "end up working on one of the Phaser games name Treasure Hunter. Although the game is not fun, that is very obvious to me, ",
+            "I think the code is beautiful because the game used the same Javascript to generate each level. Each level has a JSON ",
+            "file to represent its configuration and map."
+          ]},
+          {"title":"Seawolf", "link":"https://github.com/LumingWu/Seawolf", "content":[
+            "This project uses the Python framework TPG to create a parser for executing a script language named Seawolf. ",
+            "It first uses regular expression to syntatically identify tokens in the code. Then it uses context free grammar to ",
+            "evaluate the tokens semantically. When everything is alright without error or exception, the parser will trigger ",
+            "the function evaluate that will recursively evaluate or execute the code. Although the project used a high level ",
+            "language Python to parse a high level language, I learned a lot about the steps in creating a new programming language."
+          ]},
+          {"title":"Starcraft II Cat N' Mouse Red Sea", "link":"https://github.com/LumingWu/Starcraft-2-Cat-N-Mouse-Red-Sea", "content":[
+            "I had been a Starcraft II fan since its beta launch. I worked with Starcraft I map editors before and I thought Starcraft",
+            " II's Galaxy Editor should be easy to learn. It surprised me how complex the editor is to designers. Luckily, I am also a ",
+            "programmer. I found Galaxy Editor's script language very similar to C, it is a subset of C in terms of feature. ",
+            "The editor was very buggy and it lacks documentation, but I figured out how to take advantage of the editor's data ",
+            "structure. All data were stored in XML, all changes are just additional XML that overwrite like CSS. I simply used the ",
+            "editor to figure out the XML way to change something, then I populate my mod in XML text. It was a fun experience to ",
+            "mod the game. I hope you can check it out by searching the map in Starcraft II Arcade."
+          ]},
+          {"title":"Journey Through Europe", "link":"https://github.com/LumingWu/Journey-Through-Europe", "content":[
+            "This is the greatest JavaFX 2D transition game I ever created in class CSE219. It is a electronic version of the ",
+            "board game. It used binary file to store user data and XML file to store game data. Additional to the board game, ",
+            "this game has AIs that will use Dijkstra Algorithm to reach all the destinations. The best part of the project was ",
+            "I wrote a program to parse a text that represents the edges between cities to XML text for the game data. It generated",
+            " more than 10,000 lines of XML! I recommend you to check it out."
+          ]}
+        ]
+      }
