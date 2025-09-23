@@ -114,6 +114,8 @@
               { "label": "Postman", "class": "success" },
               { "label": "Bash" },
               { "label": "Jenkin" },
+              { "label": "Codex", "class": "success" },
+              { "label": "Copilot", "class": "success" },
               { "label": "Maven" },
               { "label": "Splunk" },
               { "label": "JMeter" },
@@ -181,6 +183,28 @@
           ]
         },
         "work_experience":[
+          {"company":"Director - Software Engineer Lead", "location":"New York, New York", "time":"January, 2025 to Present", "description":[
+            "The contributor of SA-CCR Scenario Analysis Service, a Java Spring Boot webservice that orchestrates What-If analysis for SA-CCR. Streaming 21 millions trades, 40GB of uncompressed data, applying changes, and storing the result back into Snowflake within 11 minutes.",
+            "Modernized Java Gradle mono-repository to build, test, and deploy containerized Java Spring Boot applications.",
+            "Optimized Python Airflow build pipeline, for each build, reduced build time by 1 hour and 2.4GB of disk usage, default re-use Python venv.",
+            "Onboard reporting and Snowflake build pipelines into firm internal SDLC procedure for CI/CD",
+            "Copilot instruction adopter for scenario analysis service"
+          ]},
+          {"company":"Associate - Java & Scala Developer", "location":"New York, New York", "time":"October, 2020 to December, 2024", "description":[
+            "Mainly contributed to Standardized Approach for Counterparty Credit Risk (SA-CCR). A Scala Spark batch job that aggregates 21 million trades, 80GB of uncompressed data, into counterparty level of risk weighted asset. Invented a Scala Spark rule engines that can interpret large csv business rule into native Spark Dataframe transformations",
+            "Main contributor of legacy SA-CCR Scenario Analysis, a Python Django web service that orchestrates What-If analysis for SA-CCR. Storing changes into DB2 and integrate it in re-running the Scala Spark job.",
+            "The contributor of Comprehensive Capital Analysis and Review (CCAR), and Internal Capital Adequacy Assessment Process (ICAAP) reports, a Scala Spark batch job that runs on Databricks, Snowflake, and Airflow. Forecasting SA-CCR for the next 13 quarters, 13 times the data, and all quarter runs in parallel.",
+            "A contributor of Operational Risk Regulatory Reporting, a Elm calculator hosted on a Java Spring server. Mainly contributed to the forecasting of the calculator and improved the write performance to Snowflake."
+          ]},
+          {"company":"Software Developer 1", "location":"Malvern, Pennsylvania", "time":"May, 2019 to October, 2020", "description":[
+            "Main contributor of endpoint design, DynamoDB schema design, and implementation, for a Java microservice that provides client accounts management.",
+            "Migrated over 4000 input validation tests to separate POJO project. Reduced Bamboo build time by over 50% from 40 minutes to less than 20 minutes.",
+            "Utilized JMeter, JProfiler, and Java AWS SDK Metric to perform level 1 and level 2 performance tests to the web services. Identified bottlenecks and tuned configurations such as CPU, RAM, task count, and client configuration. Eliminated all client timeouts and increased success rate by two 9's.",
+            "Main contributor of the department's first archiving pipeline using AWS services such as Lambda, Firehose, S3, and Cloudformation.",
+            "Created an abstract class that standardized the implementation of risk tolerance calculation and classification.",
+            "Designed and implemented an abstract DynamoDB access layer for common usage patterns of DynamoDBMapper. Enabled the web service to manage multiple DynamoDB tables and items.",
+            "Designed and implemented data proxy from the main service to the new service for data migration. Involved implementations of a custom client, request conversion, and error response conversion."
+          ]},
           {"company":"Stony Brook University", "location":"Stony Brook, New York", "time":"August, 2018 to December, 2018", "description":[
             "Teacher Assistant - Mainly to help grade assignments and exams."
           ]},
