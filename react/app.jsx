@@ -179,25 +179,61 @@ function Skills({ skills = [] }) {
 
   return (
     <Section title="Skills">
-      {skills.map((s, i) => (
-        <div key={i} className="card">
-          <h2>{s.title}</h2>
-          <div className="chips">
-            {(Array.isArray(s.content) ? s.content : []).map((item, idx) => {
-              if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
-              const label = String(item.label ?? item.name ?? '').trim();
-              if (!label) return null;
-              const marked = !!(item.highlight || item.strong);
-              const variant = safeChipClasses(item.class || item.classes || item.variant);
-              return (
-                <span key={i + '-' + idx} className={`chip ${marked ? 'chip--highlight' : ''} ${variant}`.trim()}>
-                  {label}
-                </span>
-              );
-            })}
+      {skills.map((s, i) => {
+        const content = Array.isArray(s.content) ? s.content : [];
+        const renderCertificates = (
+          typeof s.title === 'string' && s.title.toLowerCase().includes('certificate')
+        ) || content.some((item) => item && typeof item === 'object' && !Array.isArray(item) && (
+          item.issued || item.issuedDate || item.credential || item.link
+        ));
+
+        return (
+          <div key={i} className="card">
+            <h2>{s.title}</h2>
+            {renderCertificates ? (
+              <div className="stack">
+                {content.map((item, idx) => {
+                  if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
+                  const label = String(item.label ?? item.name ?? '').trim();
+                  if (!label) return null;
+                  const issued = String(item.issued ?? item.issuedDate ?? '').trim();
+                  const issuedDisplay = issued ? issued.replace(/^Issued:\s*/i, '').trim() : '';
+                  const credential = String(item.credential ?? item.link ?? '').trim();
+                  const showCredential = !!credential;
+                  return (
+                    <div key={`${i}-cert-${idx}`} className="stack">
+                      <div><strong>{label}</strong></div>
+                      {issued && (
+                        <div className="muted">Issued: {issuedDisplay || issued}</div>
+                      )}
+                      {showCredential && (
+                        <div>
+                          <a href={credential} target="_blank" rel="noreferrer">Credential</a>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            ) : (
+              <div className="chips">
+                {content.map((item, idx) => {
+                  if (!item || typeof item !== 'object' || Array.isArray(item)) return null;
+                  const label = String(item.label ?? item.name ?? '').trim();
+                  if (!label) return null;
+                  const marked = !!(item.highlight || item.strong);
+                  const variant = safeChipClasses(item.class || item.classes || item.variant);
+                  return (
+                    <span key={`${i}-${idx}`} className={`chip ${marked ? 'chip--highlight' : ''} ${variant}`.trim()}>
+                      {label}
+                    </span>
+                  );
+                })}
+              </div>
+            )}
           </div>
-        </div>
-      ))}
+        );
+      })}
     </Section>
   );
 }
@@ -405,4 +441,3 @@ function App() {
 
 // Mount
 ReactDOM.render(<App />, document.getElementById('root'));
-
