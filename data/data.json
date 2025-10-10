@@ -223,7 +223,7 @@
           ]},
           {"company":"Software Developer 1", "location":"Malvern, Pennsylvania", "time":"May, 2019 to October, 2020", "description":[
             "Initially contributed to user investment risk tolerance, a simple middle layer that forwards users to a third party questionnaire and collects the risk tolerance. Supported UI forward through an Angular application, and maintained session and tolerance metric through Java service.",
-            "Contributed to user profile storage, the foundational user profile DynamoDB data service (Java, AWS) to support CRUD operations of user profile. A Java service that is capable to automatically scale EC2 instances to support up to 1.5 million calls with 99.999% uptime, average 500 milliseconds response time.",
+            "Contributed to user profile storage, the foundational user profile DynamoDB data service (Java, AWS) to support CRUD operations of user profile. A Java service that is capable to automatically scale EC2 instances to support up to 1.5 million calls per minute with 99.999% uptime, average 500 milliseconds response time.",
             "Led the design and implementation of user profile accounts management. A sub-service of user profile service, extending granular update pattern for user profile accounts.",
             "Migrated over 4000 input validation tests to a separate POJO repository. Reduced Bamboo build time by over 50% from 40 minutes to less than 20 minutes.",
             "Utilized JMeter, JProfiler, and Java AWS SDK Metric to perform level 1 and level 2 performance tests to the web services. Identified bottlenecks and tuned configurations such as CPU, RAM, task count, and client configuration. Eliminated all client timeouts and increased success rate by two 9's.",
